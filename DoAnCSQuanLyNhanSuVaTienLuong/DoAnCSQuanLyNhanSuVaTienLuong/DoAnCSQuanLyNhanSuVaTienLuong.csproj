@@ -217,6 +217,9 @@
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DanhGia.resx">
+      <DependentUpon>DanhGia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TuyenDung.resx">
       <DependentUpon>TuyenDung.cs</DependentUpon>
     </EmbeddedResource>
