@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DoAnCSQuanLyNhanSuVaTienLuong",
+    "\\DoAnCSQuanLyNhanSuVaTienLuong\\DoAnCSQuanLyNhanSuVaTienLuong"
   ],
-  "SelectedNode": "\\DoAnCSQuanLyNhanSuVaTienLuong.sln",
+  "SelectedNode": "\\DoAnCSQuanLyNhanSuVaTienLuong\\DoAnCSQuanLyNhanSuVaTienLuong\\ThueTNCN.cs",
   "PreviewInSolutionExplorer": false
 }
