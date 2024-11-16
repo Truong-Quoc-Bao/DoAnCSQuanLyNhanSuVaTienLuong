@@ -1,6 +1,6 @@
 ﻿namespace DoAnCSQuanLyNhanSuVaTienLuong
 {
-    partial class Menu
+    partial class TuyenDung
     {
         /// <summary>
         /// Required designer variable.

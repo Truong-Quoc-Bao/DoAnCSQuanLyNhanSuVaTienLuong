@@ -152,11 +152,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaoHiemXaHoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoHiemXaHoi.Designer.cs">
+      <DependentUpon>BaoHiemXaHoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChamCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChamCong.Designer.cs">
+      <DependentUpon>ChamCong.cs</DependentUpon>
+    </Compile>
     <Compile Include="DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DanhGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhGia.Designer.cs">
+      <DependentUpon>DanhGia.cs</DependentUpon>
     </Compile>
     <Compile Include="HeThongQuanLy.cs">
       <SubType>Form</SubType>
@@ -164,19 +182,43 @@
     <Compile Include="HeThongQuanLy.Designer.cs">
       <DependentUpon>HeThongQuanLy.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu.cs">
+    <Compile Include="MucTieu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu.Designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <Compile Include="MucTieu.Designer.cs">
+      <DependentUpon>MucTieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThongTinNhanSu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongTinNhanSu.Designer.cs">
+      <DependentUpon>ThongTinNhanSu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThueTNCN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThueTNCN.Designer.cs">
+      <DependentUpon>ThueTNCN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TienLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TienLuong.Designer.cs">
+      <DependentUpon>TienLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TuyenDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TuyenDung.Designer.cs">
+      <DependentUpon>TuyenDung.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu.resx">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <EmbeddedResource Include="TuyenDung.resx">
+      <DependentUpon>TuyenDung.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

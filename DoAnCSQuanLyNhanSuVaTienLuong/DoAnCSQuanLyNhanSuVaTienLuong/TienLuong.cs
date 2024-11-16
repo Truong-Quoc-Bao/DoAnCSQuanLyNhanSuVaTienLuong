@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DoAnCSQuanLyNhanSuVaTienLuong
 {
-    public partial class Menu : Form
+    public partial class TienLuong : Form
     {
-        public Menu()
+        public TienLuong()
         {
             InitializeComponent();
         }
