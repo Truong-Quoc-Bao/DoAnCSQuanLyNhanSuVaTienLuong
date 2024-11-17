@@ -24,5 +24,15 @@ namespace DoAnCSQuanLyNhanSuVaTienLuong
             chamCong.Show();
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
