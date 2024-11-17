@@ -16,5 +16,13 @@ namespace DoAnCSQuanLyNhanSuVaTienLuong
         {
             InitializeComponent();
         }
+
+        private void btnChamCong_Click(object sender, EventArgs e)
+        {
+            ChamCong chamCong = new ChamCong();
+            this.Hide();
+            chamCong.Show();
+            this.Close();
+        }
     }
 }

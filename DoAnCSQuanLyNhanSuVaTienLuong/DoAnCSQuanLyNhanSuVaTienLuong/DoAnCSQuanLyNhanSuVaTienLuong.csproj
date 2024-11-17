@@ -214,11 +214,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChamCong.resx">
+      <DependentUpon>ChamCong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DanhGia.resx">
       <DependentUpon>DanhGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThongQuanLy.resx">
+      <DependentUpon>HeThongQuanLy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TuyenDung.resx">
       <DependentUpon>TuyenDung.cs</DependentUpon>
