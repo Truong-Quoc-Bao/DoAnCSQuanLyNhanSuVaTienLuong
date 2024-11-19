@@ -24,7 +24,14 @@ namespace DoAnCSQuanLyNhanSuVaTienLuong
             chamCong.Show();
             this.Close();
         }
+        private void btnTienLuong_Click(object sender, EventArgs e)
+        {
+            TienLuong tienLuong = new TienLuong();
+            this.Hide();
+            tienLuong.Show();
+            
 
+        }
         private void button1_Click(object sender, EventArgs e)
         {
 
